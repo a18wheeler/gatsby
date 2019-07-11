@@ -34,10 +34,17 @@ directory called `netlify-cms-tutorial` that contains the starter site, but you 
 gatsby new netlify-cms-tutorial https://github.com/gatsbyjs/gatsby-starter-hello-world
 ```
 
-Now move into the newly created directory and install the Gatsby plugin for Netlify CMS:
+Now move into the newly created directory and install the Gatsby plugin for Netlify CMS. You can use
+either npm **or** yarn for this. **It is not advised to use both**:
 
+**Using npm**
 ```shell
 cd netlify-cms-tutorial && npm install --save netlify-cms-app gatsby-plugin-netlify-cms
+```
+
+**Using yarn**
+```shell
+cd netlify-cms-tutorial && yarn add netlify-cms-app gatsby-plugin-netlify-cms
 ```
 
 Gatsby plugins are registered in a file called `gatsby-config.js` in the site root. Create that file
